@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "236293699216",
+    "project_id": "twinder-7b30d",
+    "storage_bucket": "twinder-7b30d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236293699216:android:8441ac8c0e0d0ad3ef8a15",
+        "android_client_info": {
+          "package_name": "host.exp.exponent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236293699216-o31pb4km7i5r0dfg103rd4undh5igkeg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "host.exp.exponent",
+            "certificate_hash": "cfd8faf4ec9ace4baa0bc2d492502387a1d6f070"
+          }
+        },
+        {
+          "client_id": "236293699216-9a0nknjdq7ie79h40iubg0tddokgogfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGbzotFCgyDzDTNxGNXmsRHj7OJjD7qbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236293699216-9a0nknjdq7ie79h40iubg0tddokgogfv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "236293699216-6jdpm0rd6kn5d0qlbh1vgva5afgbqgib.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "host.exp.exponent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

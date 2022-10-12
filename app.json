@@ -1,6 +1,8 @@
 {
   "expo": {
     "name": "twinder-3",
+    "owner": "shange1",
+    "scheme":"com.expo-auth-session.twinder-3",
     "slug": "twinder-3",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +26,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "host.exp.exponent"
     },
     "web": {
       "favicon": "./assets/favicon.png"
