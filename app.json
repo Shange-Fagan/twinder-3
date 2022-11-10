@@ -2,6 +2,7 @@
   "expo": {
     "name": "twinder-3",
     "owner": "shange1",
+    "admin": "anas13",
     "scheme":"com.expo-auth-session.twinder-3",
     "slug": "twinder-3",
     "version": "1.0.0",
