@@ -224,7 +224,7 @@ const HomeScreen = () => {
   };
   return (
     <SafeAreaView
-      style={[tailwind("flex-1 relative"), { backgroundColor: "#1f1f23" }]}
+      style={[tailwind("flex-1 relative"), { backgroundColor: "#0e0e10" }]}
     >
       {/* Header */}
       <View style={tailwind("  flex-row justify-center items-center")}>

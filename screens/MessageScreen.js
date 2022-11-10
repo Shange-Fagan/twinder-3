@@ -94,7 +94,7 @@ const MessageScreen = () => {
       style={[
         tw("flex flex-1 dark:bg-slate-800 flex-col justify-evenly space-y-4 "),
         {
-          backgroundColor: "#1f1f23",
+          backgroundColor: "#0e0e10",
           justifyContent: "space-around",
           flexDirection: "column",
         },
