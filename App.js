@@ -3,17 +3,28 @@ import StackNavigator from './StackNavigator';
 import { LogBox } from "react-native";
 LogBox.ignoreAllLogs();
 import { NavigationContainer } from "@react-navigation/native";
-import { AuthProvider } from "./hooks/Auth";
+import { AuthProvider } from "./hooks/useAuth";
+import { navigationRef } from "./RootNavigation";
+import {TailwindProvider, useTailwind} from 'tailwind-rn';
+import utilities from './tailwind.json';
 
-export default function App() {
+
+const App = () =>  {
+  const tailwind = useTailwind();
+
   return (
-    
+    <NavigationContainer ref={navigationRef}>
     <AuthProvider>
-      {/* HOC - Higher Order Component */}
-      <NavigationContainer>
-      <StackNavigator />  
-    </NavigationContainer>
-    {/* Passes down the cool auth stuff to children */}
-  </AuthProvider>
+      <StackNavigator />
+    </AuthProvider>
+  </NavigationContainer>
   );
 };
+
+const Root = () => (
+	<TailwindProvider utilities={utilities}>
+		<App />
+	</TailwindProvider>
+);
+
+export default Root;

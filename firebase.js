@@ -8,7 +8,10 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
+
+
+// Initialize Firebase
+const app = initializeApp({
   apiKey: "AIzaSyAST7kOtpqeZYkZa5DkrSMpFV3M94pE374",
   authDomain: "twinder-7b30d.firebaseapp.com",
   projectId: "twinder-7b30d",
@@ -16,11 +19,8 @@ const firebaseConfig = {
   messagingSenderId: "236293699216",
   appId: "1:236293699216:web:6a4293da3023ded8ef8a15",
   measurementId: "G-NMXGVL36N4"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+});
+// const analytics = getAnalytics(app);
 const auth = getAuth();
 const db = getFirestore();
 
