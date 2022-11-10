@@ -10,7 +10,7 @@ const LearnMore = () => {
             " border border-2 border-purple-600 bg-transparent p-3 rounded-full"
           ),
         ]}
-        onPress={setInterests}
+        onPress={""}
       >
         <Text style={[tailwind("font-bold text-center text-purple-600 ")]}>
           MrBeast

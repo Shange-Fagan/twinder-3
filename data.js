@@ -3,7 +3,8 @@ const data = [
     title: "Twinder Platinum",
     body: " Change the way you swipe on Twinder.",
     imgUrl: "https://picsum.photos/id/11/200/300",
-    HTMLButtonElement: "./LearnMore.js",
+    HTMLElement:
+      "https://github.com/Shange-Fagan/twinder-3/blob/master/LearnMore.js",
   },
   {
     title: "See who likes you",
