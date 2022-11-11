@@ -7,7 +7,7 @@ const data2 = () => {
       title: "Twinder Platinum",
       body: " Change the way you swipe on Twinder.",
       imgUrl: "https://picsum.photos/id/11/200/300",
-      src: "./LearnMore.js",
+      HTMLBodyElement: "./LearnMore.js",
     },
     {
       title: "See who likes you",
